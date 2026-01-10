@@ -1,0 +1,9 @@
+pymupdf
+pytesseract
+pillow
+pdf2image
+spacy
+openai
+python-dotenv
+streamlit
+plotly

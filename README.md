@@ -68,10 +68,5 @@ PROJET ATS/
 ├── matching.py # Matching CV / Offre → score ATS
 ├── streamlit_app.py # Interface Streamlit
 │
-├── .streamlit/
-│ └── secrets.toml # Clé API OpenAI (non versionné)
-│
 ├── requirements.txt
 └── README.md
-│
-└──.gitignore

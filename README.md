@@ -61,13 +61,15 @@ Un second prompt calcule :
 
 ## 🗂️ Architecture du projet
 
+```text
 PROJET ATS/
-├── extraction.py
-├── analyse_cv.py
-├── matching.py
-├── streamlit_app.py
-├── requirements.txt
-├── README.md
+├── extraction.py      # Extraction de texte (PDF/Docx)
+├── analyse_cv.py      # Analyse sémantique et extraction d'entités via IA
+├── matching.py         # Calcul du score de compatibilité Poste vs CV
+├── streamlit_app.py   # Interface utilisateur (Dashboard)
+├── requirements.txt   # Dépendances Python
+├── README.md          # Documentation du projet
 └── .streamlit/
-    └── secrets.toml     # Clé API OpenAI (non versionnée)
+    └── secrets.toml   # Clé API OpenAI (Sécurité)
+
 
